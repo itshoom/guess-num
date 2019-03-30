@@ -1,5 +1,9 @@
 import random
-x = random.randint(1, 100)
+start = input('请决定起始值: ')
+end = input('请决定范围结束值: ')
+start = float(start)
+end = float(end)
+x = random.randint(start, end)
 count = 0
 while True:
     count += 1
